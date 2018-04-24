@@ -12,7 +12,7 @@ eta = 1/8;
 %% Dataset 
 %  load('../Datasets/twelveclustersgaussian2D.mat')
 %  X = table2array(clustersgaussian2D);
-load('../Datasets/half_kernel_labelled.mat')
+load('../Datasets/half_kernel_labelled.mat')% Path to the dataset here
 % X = moon;
 D = squareform(pdist(X));
 
